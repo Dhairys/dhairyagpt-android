@@ -1,0 +1,21 @@
+# SIGNING KEYS: never commit these
+*.keystore
+*.jks
+signing.keystore
+signing-key-info.txt
+keystore.properties
+
+# Android / Gradle build output
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+
+# Built apps (publish these as GitHub Releases instead)
+*.apk
+*.aab
+
+# OS files
+.DS_Store
+Thumbs.db
