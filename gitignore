@@ -1,21 +1,28 @@
-# SIGNING KEYS: never commit these
-*.keystore
-*.jks
-signing.keystore
-signing-key-info.txt
-keystore.properties
+# Dependencies
+node_modules/
 
-# Android / Gradle build output
-.gradle/
-build/
-local.properties
-.idea/
-*.iml
+# Environment variables / secrets
+.env
+.env.*
+.dev.vars
+!.env.example
 
-# Built apps (publish these as GitHub Releases instead)
-*.apk
-*.aab
+# Vercel
+.vercel/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
